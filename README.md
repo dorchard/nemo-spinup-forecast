@@ -11,7 +11,7 @@ This project provides a flexible framework for oceanographic time‑series forec
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/m2lines/Spinup-Forecast
+   git clone https://github.com/m2lines/nemo-spinup-forecast
    cd <repo_dir>
    ```
 2. **Set up a virtual environment**
