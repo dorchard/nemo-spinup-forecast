@@ -35,7 +35,7 @@ This project provides a flexible framework for oceanographic time‑series forec
 1. Once you have cloned the repository and built the environment, there is test data available for quick experimentation. Download it using the script in the `tools` directory:
 
    ```bash
-   ./tools/download_test_data.sh
+   ./tests/download_test_data.sh
    ```
 
 2. Run the forecasting script on the test data:
@@ -347,7 +347,7 @@ To run the tests, you first need to download the necessary data files.
 You can do this by running the download script within the tools directory from the root of the project:
 
 ```bash
-./tools/download_test_data.sh
+./tests/download_test_data.sh
 ```
 
 Then execute the tests using pytest. The tests are located in the `tests` directory, and you can run them with the following command:
