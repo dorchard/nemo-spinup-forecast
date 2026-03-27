@@ -32,7 +32,7 @@ This project provides a flexible framework for oceanographic time‑series forec
 
 ## 2. Quick Start
 
-1. Once you have cloned the repository and built the environment, there is test data available for quick experimentation. Download it using the script in the `tools` directory:
+1. Once you have cloned the repository and built the environment, there is test data available for quick experimentation. Download it using the script in the `tests` directory:
 
    ```bash
    ./tests/download_test_data.sh
@@ -344,7 +344,7 @@ There are 340 restart files per year. Each file contains a slice of the x and y 
 The tests are designed to ensure the functionality of the Spin-Up NEMO project, which involves preparing and forecasting simulations.
 
 To run the tests, you first need to download the necessary data files.
-You can do this by running the download script within the tools directory from the root of the project:
+You can do this by running the download script within the `tests` directory from the root of the project:
 
 ```bash
 ./tests/download_test_data.sh
